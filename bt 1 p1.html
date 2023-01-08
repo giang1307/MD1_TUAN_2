@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nhap so diem sv</title>
+</head>
+<body>
+<script>
+  inputHoa =  prompt("Enter the Hoa")
+  inputVatly = prompt("Enter the Vatly")
+  inputSinhhoc = prompt("Enter the Sinhhoc")
+  let Hoa = parseInt(inputHoa);
+  let Vatly = parseInt(inputVatly);
+  let Sinhhoc = parseInt(inputSinhhoc)
+  let dtb = (Hoa+Vatly+Sinhhoc)/3
+  document.write("The dtb is: " + dtb);
+  document.write('<br/>')
+  let tong = Hoa+Vatly+Sinhhoc
+  document.write("The tong is:" + tong);
+</script>
+</body>
+</html>
